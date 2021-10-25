@@ -1,0 +1,287 @@
+<html>
+    <head>
+        <title>Hotel Booking</title>
+        <link rel="stylesheet" href="Main.css">
+        <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+      
+
+        <header> 
+            
+            <nav>
+                <div class="row">
+                    <img src="images/logo1.jpeg" class="logo1">
+                    <ul class="main-nav" id="check-class">
+                        <li><a href="Main.html">Home</a></li>
+                        <li><a href="Aboutus.html">About Us</a></li>
+                        <li><a href="Form.html">Book Your Room</a></li>
+                        <li><a href="attraction.html">Attractions </a></li>
+                    </ul>
+                        <!-- <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>	 -->
+                </div>
+            </nav>
+            
+            <div class="main-content-header">
+                <div class="slider">
+                    <!--image slider start-->
+                    <div class="slides">
+                        <!--radio slider start-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        
+                        <!--radio slider end-->
+                        <!--slides images start-->
+                        <div class="slide first">
+                            <img src="images/1.jpg" alt="" >
+                        </div>
+                        <div class="slide">
+                            <img src="images/2.jpg" alt="" >
+                        </div>
+                        <div class="slide">
+                         <img src="images/3.jpg" alt="" >
+                     </div>
+                     <div class="slide">
+                         <img src="images/4.jpg" alt="" >
+                     </div>
+                     <div class="slide">
+                         <img src="images/5.jpg" alt="" >
+                    </div>
+                        <!--slides images end-->
+                        <!--automatic nav start-->
+                      
+                        <!--automatic nav end-->
+                    </div>
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+                
+         </div>
+         <!--image slider end-->
+         <script type="text/javascript">
+            var counter = 2;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 5)
+                {
+                    counter = 1;
+                }
+            },5000);
+        </script>
+            
+        </header>
+
+   
+                
+     <!------------------------------------------------------------------------------------------->           
+               
+         
+
+            <div class="about-pages">
+         <h2  class="ab-h"> Our Top Rooms </h2>
+<div class= "about-s">
+                <div class="section-1">
+                    <h2 class="room-1">Royal PentHouse </h2>
+                    
+                    
+                      <div class="container">
+                       
+ <!-- Slideshow container -->
+ <div class="slideshow-container">
+    <div class="mySlides1">
+      <img src="images/Royal Pent House/1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides1">
+      <img src="images/Royal Pent House/2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides1">
+      <img src="images/Royal Pent House/3.jpg" style="width:100%">
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  </div>
+ 
+                
+                    </div> 
+                    
+                    
+                    
+                    <p>Penthouses generally provide ample natural light and ventilation and an unobstructed view of the surroundings. These are things that not many may be able to afford in a big city. These units offer more peace and quiet, because of the placement of the units. <a href="#">Read More</a></p>
+                </div>
+
+                <div class="section-2">
+                    <h2 class="room-1"> Ocean Terrace Suit </h2>
+                    <div class="container">
+                         <!-- Slideshow container -->
+                         <div class="slideshow-container">
+                            <div class="mySlides2">
+                              <img src="images/Ocean Terrace Suit/1.jpg" style="width:100%">
+                            </div>
+                          
+                            <div class="mySlides2">
+                              <img src="images/Ocean Terrace Suit/2.jpg" style="width:100%">
+                            </div>
+                          
+                            <div class="mySlides2">
+                              <img src="images/Ocean Terrace Suit/3.jpg" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                        </div>
+                        
+                    </div> 
+
+                    <p>With a well-appointed living area and terrace, this suite offers you and your family the comfort of an exceptional home away from home. As an Ocean Terrace Suite guest, enjoy exclusive Club Lounge access and additional benefits. <a href="#">Read More</a></p>
+
+                </div>
+
+                </div>
+
+
+            </div>
+        </section>
+       
+
+
+
+ <section class="footer">
+                  	<div class="container">
+                  		<div class="f-con">
+                  		<div class="foot-con">
+                  			<div class="foot-logo">
+                  				<a href="#"><img src="images/logo1.jpeg" class="logo1"></a>
+
+                  				<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                              tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                     suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                      lacus vel facilisis.</p> -->
+                  				<!-- <h6>Our Team</h6> -->
+                  			</div>
+                  			
+                  		</div>
+                  		
+
+                  		<div class="foot-contact">
+                  			<h3>Contact</h3>
+                  			<ul>
+                  				<li>
+                  					<i class="fa fa-envelope" aria-hidden="true"></i>
+                  					<a href="#">abcd@gmail.com</a>
+                  				</li>
+                  			
+
+                  			
+                  				<li>
+                  					<i class="fa fa-mobile" aria-hidden="true"></i>
+                  					<a href="#">91+ 123456789</a>
+                  				</li>
+                  			
+
+                  			
+                  				<li>
+                  					<i class="fa fa-map-marker" aria-hidden="true"></i>
+                  					<a href="#">87/2A, Elgin Road <br>
+                                                                                                                       Goa : 403503</a>
+                  				</li>
+                  			
+                            </ul>
+                  			
+                  		</div>
+
+
+                  		<div class="foot-icon">
+    				        <h3>Follow Us</h3>
+    			           <ul>
+    					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+    					<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+    					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    			         </ul>
+
+                                          
+    			        </div>
+                                 <div class="feedback">
+              <a href= "file:feeback.html" target="_blank">Feedback</a>
+
+
+               </div>
+
+
+
+                  		</div>
+                  	</div>
+
+              
+
+               </section>
+
+<section class="tc-policy">
+                  	<div class="t-c">
+                      	
+                      
+                  	<div class="t-cond li">
+                  		<ul>
+                  		    <li><a href="#" class="p-p">@Royal.com | Privacy Policy | Terms & Conditions | Design by Friends Group </a></li>
+                  		
+                  			<li><a href="#">Copyright @2020 Royal Online Private Limited, India. All rights reserved</a></li>
+                  		</ul>
+                  	</div>
+                  	</div>
+                  </section>
+
+
+
+              
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"></script>
+    
+        <script src="app.js"></script>
+        <script>
+            var slideIndex = [1,1];
+            var slideId = ["mySlides1", "mySlides2"]
+            showSlides(1, 0);
+            showSlides(1, 1);
+            
+            
+            
+            function plusSlides(n, no) {
+              showSlides(slideIndex[no] += n, no);
+            }
+            
+            function showSlides(n, no) {
+              var i;
+              var x = document.getElementsByClassName(slideId[no]);
+              if (n > x.length) {slideIndex[no] = 1}    
+              if (n < 1) {slideIndex[no] = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex[no]-1].style.display = "block";  
+            }
+            </script>
+
+
+
+
+
+        
+
+    </body>
+</html>
